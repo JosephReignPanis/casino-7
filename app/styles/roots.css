@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --primary-hr-gradient: linear-gradient(
+    to right,
+    #5fa3d7,
+    #1f3a5f,
+    #3e7bb6,
+    #2c5c90,
+    #e4f0f9,
+    #357ab7,
+    #4d90c9,
+    #8ac6f2
+  );
+
+  --secondary-hr-gradient: linear-gradient(
+    to right,
+    #5fa3d7,
+    #e4f0f9,
+    #357ab7,
+    #8ac6f2
+  );
+
+  --primary-btn-gradient: linear-gradient(to right, #225a99, #b5dcf9, #225a99);
+
+  --nav-btn-gradient: linear-gradient(to right, #225a99, #67aee5, #225a99);
+
+  --nav-btn-gradient-hover: linear-gradient(
+    to right,
+    #225a99,
+    #67aee5,
+    #225a99
+  );
+
+  --primary-bg-gradient: linear-gradient(to bottom,#043450, #3b6ea5);
+
+  --primary-bg-gradient-t: linear-gradient(to top, #5fa3d7, #0c1a2f);
+
+  --primary-header-gradient: linear-gradient(
+    to right,
+    #3b6ea5,
+    #a3d4f0,
+    #3b6ea5 
+  );
+
+  --secondary-bg-gradient: linear-gradient(to top, #1a385f, #a3d4f0);
+
+  --secondary-bg-gradient-hover: linear-gradient(to top, #2a4d80, #afdaf2);
+
+  --silver-btn-gradient: linear-gradient(to top, #323232, #565656);
+
+  --silver-btn-gradient-hover: linear-gradient(to top, #434343, #727272);
+
+  --text-primary: linear-gradient(to top, #5fa3d7, #f0f8ff);
+
+  --text-primary-hover: linear-gradient(to top, #7cc6f9, #f0f8ff);
+
+  --sb-gradient: linear-gradient(to top, #0d1a28, #1a2d3f, #0d1a28);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+
+    --primary-hr-gradient: linear-gradient(
+      to right,
+      #5fa3d7,
+      #1f3a5f,
+      #3e7bb6,
+      #2c5c90,
+      #e4f0f9,
+      #357ab7,
+      #4d90c9,
+      #8ac6f2
+    );
+
+    --secondary-hr-gradient: linear-gradient(
+      to right,
+      #5fa3d7,
+      #e4f0f9,
+      #357ab7,
+      #8ac6f2
+    );
+
+    --primary-btn-gradient: linear-gradient(
+      to right,
+      #225a99,
+      #b5dcf9,
+      #225a99
+    );
+
+    --nav-btn-gradient: linear-gradient(to right, #225a99, #67aee5, #225a99);
+
+    --nav-btn-gradient-hover: linear-gradient(
+      to right,
+      #225a99,
+      #67aee5,
+      #225a99
+    );
+
+    --primary-header-gradient: linear-gradient(
+      to right,
+      #3b6ea5,
+      #a3d4f0,
+      #3b6ea5
+    );
+
+    --secondary-bg-gradient: linear-gradient(to top, #1a385f, #a3d4f0);
+
+    --secondary-bg-gradient-hover: linear-gradient(to top, #2a4d80, #afdaf2);
+
+    --silver-btn-gradient: linear-gradient(to top, #323232, #565656);
+
+    --silver-btn-gradient-hover: linear-gradient(to top, #434343, #727272);
+
+    --text-primary: linear-gradient(to top, #5fa3d7, #f0f8ff);
+
+    --text-primary-hover: linear-gradient(to top, #7cc6f9, #f0f8ff);
+
+    --sb-gradient: linear-gradient(to top, #0d1a28, #1a2d3f, #0d1a28);
+  }
+}
