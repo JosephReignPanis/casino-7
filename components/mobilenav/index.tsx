@@ -70,7 +70,7 @@ export default function MobileNav() {
           {/* Logo */}
           <Link href={"/"}>
             {" "}
-            <Image src="/bank_logo.png" width={120} height={72} alt="webLogo" />
+            <Image src="/bank_logo.png" width={72} height={72} alt="webLogo" />
           </Link>
           {/* Right Sidebar Trigger */}
           <i

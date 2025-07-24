@@ -192,21 +192,21 @@ export default function LandingPage() {
           <div className="col-span-1 gap-2">
             <Image
               src="/placeholder1.png"
-              width={120}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"
             />
             <Image
               src="/placeholder3.png"
-              width={120}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"
             />
             <Image
               src="/placeholder4.png"
-              width={120}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"
@@ -224,21 +224,21 @@ export default function LandingPage() {
           <div className="col-span-1 gap-2">
             <Image
               src="/placeholder5.png"
-              width={120}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"
             />
             <Image
               src="/placeholder6.png"
-              width={120}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"
             />
             <Image
               src="/placeholder7.png"
-              width={100}
+              width={200}
               height={100}
               alt="placeholder"
               className="w-full pb-2"

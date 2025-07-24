@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="hidden lg:block">
       {/* Top Nav */}
-      <nav className="bg-[#171719] flex justify-center nav-bg">
+      <nav className="bg-[#0e0e0f] flex justify-center nav-bg">
         <div className="flex items-center gap-7 pt-15">
           <Link href="/navigation/charge" className="nav-btn-primary">
             입금신청
