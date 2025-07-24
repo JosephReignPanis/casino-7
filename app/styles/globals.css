@@ -1,11 +1,11 @@
 body {
   background-image: url("/background.jpg");
   color: var(--foreground);
-  font-family: "Do Hyeon", sans-serif;
   font-weight: 300;
   font-style: normal;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Do Hyeon", sans-serif;
 }
 
 footer {

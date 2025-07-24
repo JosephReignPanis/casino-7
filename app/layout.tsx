@@ -12,17 +12,12 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import LeftContent from "@/components/leftcontent";
 import RightContent from "@/components/rightcontent";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import { Do_Hyeon } from "next/font/google";
+const doHyeon = Do_Hyeon({
+  weight: "400",
   subsets: ["latin"],
+  display: "swap",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Newtro",
   description: "Nbet sports betting",
@@ -35,9 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${doHyeon.className} antialiased`}>
         <MobileNav />
         <Navbar />
         <div className="min-h-screen max-w-[1920px] mx-auto ">
