@@ -51,29 +51,25 @@ export default function RightContent() {
           <p className="text-yellow-400">5.65</p>
         </div>
         <div className="grid grid-cols-3 gap-2 pt-2">
-          <button className="btn-silver-gradient p-2 rounded-sm">10,000</button>
-          <button className="btn-silver-gradient p-2 rounded-sm ">
+          <button className="btn-silver-gradient p-2 rounded-sm flex-1">
+            1,000
+          </button>
+          <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
             10,000
           </button>
-          <button className="btn-silver-gradient p-2 rounded-sm ">
-            10,000
+          <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
+            20,000
           </button>
-          <button className="btn-silver-gradient p-2 rounded-sm">10,000</button>
-          <button className="btn-silver-gradient p-2 rounded-sm ">
-            10,000
+          <button className="btn-silver-gradient p-2 rounded-sm flex-1">
+            50,000
           </button>
-          <button className="btn-silver-gradient p-2 rounded-sm ">
-            10,000
+          <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
+            100,000
+          </button>
+          <button className="btn-silver-gradient p-2 rounded-sm  flex-1">
+            1,000,000
           </button>
         </div>{" "}
-        <div className="grid grid-cols-2 gap-2 pb-2">
-          <button className="btn-silver-gradient p-2 rounded-sm ">
-            10,000
-          </button>
-          <button className="btn-silver-gradient p-2 rounded-sm ">
-            10,000
-          </button>
-        </div>
         <button className="flex sidebarbg  justify-center p-2 rounded-sm">
           베팅하기
         </button>
